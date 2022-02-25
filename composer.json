@@ -1,5 +1,5 @@
 {
-    "name": "bringyourownideas/laravel-backblaze",
+    "name": "milestone-belanova/laravel-backblaze",
     "type": "library",
     "description": "Backblaze B2 Cloud Storage for Laravel 5. Original by Paul Olthof (@hpolthof) continued by @bringyourownideas",
     "keywords": [
