@@ -29,7 +29,7 @@ class BackblazeServiceProvider extends ServiceProvider
             $client = new Client($config['accountId'], $config['applicationKey']);
 
             // create an new adapter
-            $adapter = new BackblazeAdapter($client, $config['bucketName']);
+            $adapter = new BackblazeAdapter($client, $config['bucketName'], $config['bucketId'] ?? null);
 
             // and return the file system.
             return new Filesystem($adapter);
